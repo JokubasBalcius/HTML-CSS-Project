@@ -1,0 +1,38 @@
+.header {
+    width: 1860px;
+    height: 0px;
+    flex-shrink: 0;
+    margin-bottom: 10px #FFF;
+}
+.start {
+    /* background */
+    background-image: url(../images/code.jpeg);
+    background-size: cover;
+    height: 975px;
+}
+
+.item1 h1 {
+    /* placeĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄĄ */
+    display: flex;
+    /* flex-direction: column;
+    justify-content:end; */
+
+
+    /* properties */
+    width: 892px;
+    color: var(--main-white, #FFF);
+    font-family: "Neue Machina";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 65px */
+}
+
+picture {
+    position: absolute;
+    margin: auto;
+    width: 60px;
+}
+
+
+
