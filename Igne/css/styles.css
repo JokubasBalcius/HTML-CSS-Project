@@ -135,7 +135,7 @@ header {
   margin-bottom: 50px;
 }
 
-.goals_section h1 {
+h1 {
   color: var(--main-light, #2f353f);
   font-family: "Neue Machina";
   font-size: 60px;
@@ -145,10 +145,13 @@ header {
   margin-bottom: 100px;
 }
 
-.goals_section {
+.container {
   max-width: 1920px;
   margin: auto;
+  padding: 0 5%;
+  margin-bottom: 250px;
 }
+
 
 .square {
   display: flex;
@@ -162,12 +165,12 @@ header {
 }
 
 .content {
-  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
 }
 .goal_block {
   min-height: 500px;
@@ -184,7 +187,6 @@ header {
   width: 33%;
 }
 
-/* inside */
 .number {
   display: flex;
   align-self: flex-start;
@@ -205,7 +207,7 @@ header {
   line-height: 150%; /* 48px */
 }
 
-.text {
+p {
   color: rgba(47, 53, 63, 0.7);
   font-family: Gilroy;
   font-size: 30px;
@@ -234,4 +236,67 @@ header {
 .box_7 {
   background-image: url(/Igne/images/box_7.png);
   width: 35%;
+}
+
+.advantages ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 305px;
+  flex-shrink: 0;
+  border-left: solid 3px rgba(47, 53, 63, 0.14);
+  color: rgba(47, 53, 63, 0.3);
+  margin-right: 200px;
+  max-height: 400px;
+  @media (max-width: 1600px) {
+    margin-right: 50px;
+  }
+}
+
+.advantages li {
+  padding-left: 50px;
+  min-width: 300px;
+  color: rgba(47, 53, 63, 0.3);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: -3px;
+}
+.advantages li:hover {
+  color: var(--main-blue, #2e2bd0);
+  border-left: solid 3px #2e2bd0;
+}
+.info_about_team {
+  width: 100%;
+  padding: 40px;
+  border-radius: 70px;
+  border: 1px solid rgba(47, 53, 63, 0.5);
+}
+
+.info_about_team h3 {
+  color: var(--main-blue, #2e2bd0);
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.advantages p.small_text {
+  max-width: 720px;
+  font-size: 24px;
+}
+
+.info_about_team p {
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 150px;
 }
