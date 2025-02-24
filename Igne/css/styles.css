@@ -152,7 +152,6 @@ h1 {
   margin-bottom: 250px;
 }
 
-
 .square {
   display: flex;
   flex-direction: column;
@@ -171,6 +170,7 @@ h1 {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
+  padding: 50px;
 }
 .goal_block {
   min-height: 500px;
@@ -284,7 +284,7 @@ p {
   line-height: normal;
 }
 
-.advantages p.small_text {
+p.small_text {
   max-width: 720px;
   font-size: 24px;
 }
@@ -293,10 +293,45 @@ p {
   font-size: 30px;
 }
 
-.content {
+.advantages_content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 100%;
   margin-top: 150px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.how_we_work_wrapper {
+  align-items: center;
+}
+
+.how_we_work {
+  padding: 50px;
+  border-radius: 40px;
+  border: 1px solid rgba(47, 53, 63, 0.5);
+  box-sizing: border-box;
+}
+.how_we_work_wrapper .how_we_work:first-child {
+  border: none;
+}
+
+.how_we_work_wrapper .how_we_work:last-child {
+  border-radius: 40px;
+  background: linear-gradient(87deg, #2E2BD0 -68.23%, #7876F2 165.71%);
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  width: calc(33% - 20px);
+  opacity: 0.8;
+}
+
+h6 {
+  color: var(--main-light, #2f353f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Neue Machina";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
 }
